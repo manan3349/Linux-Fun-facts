@@ -46,3 +46,44 @@ Some Interesting Facts about Linux.
 - But if we do `echo -e Hello\b` and think o/p as `Hell` then it didn.t work bcz we also need to use `-n` here.
 
 ### Use `man <command name> ` for detail of any command.(This will help you a lot.)
+
+#### Network: Its just a signal; either wired or wireless or fibreoptics, depends on what kind of networking we have.
+##### With use of `Mobile number Spoofing` , whatever number i have same mobile number can also use in the same time.
+##### Mobile number Spoofing app for android : But dont use this its a crime.
+##### Same thing we can do in our laptops, whatever ip google use we can also use that ip by spoofing.
+ 
+### To check How many network card in the PC
+- `ifconfig` will list you all network card.
+- The main network card that will give you internet connectivity is always your 1st network card listed there , typically known as ethernet card.
+#### IP addresses(Valid/Invalid)
+- Anything which has 4 octets and have range from 0 to 255 , then it is known as valid IP.
+- Eg.: 192.168.0.1 is valid.
+- Or we can say that,
+##### - Any Ip which is valid ,that must contains a space of 4 bytes in your memory/ram.
+##### - Means, all IP's or all numbers which can consumes 4bytes are the valid IP's.
+#### So Any Number that con be stored in 4 bytes, it always a Valid IP.
+- Examples are: `192.168.12345` is a valid IP bcz it is of 4 bytes 1st two are devided in one bytes then last octet is of 2 bytes.
+- `1245.52612` is also valid ip bcz both octets are devided in 2 bytes.
+- `12345689` is also a valid ip bcz we can easily store in 4bytes.
+- So technically , we have devided IPs in 4 octets so that we human can easily perform operations and is easy to us to read in readable format.
+
+#### If you want to see that how your packet is flowing to multiple cities and countries use tools like:
+- `neotrace`
+- `traceroute`
+
+#### Q.) What if we want to open multiple commandline in a single go?
+- Ans: For this we have to use loops like `for` and `while` loop.
+- `for ((i=1 ; i<10 ; i++))`
+- `do`
+- `gnome-terminal`
+- `done`
+- This will open 10 terminals for you.
+
+#### Technically, your IP store in the RAM in Binary format as 0,1.
+- Just like it will first make your 1st octet number in binary and then remove the . then same as 2,3,4 octets.
+- Then we convert that 32 bit binary in again decimal and if we convert in again decimal then there were no dots and thats why we obtain a big decimal number.
+
+### Some usefull commands:
+- `bc` is a calculator in cmd.
+- `gnome-terminal` : will opens you a new terminal.
+
