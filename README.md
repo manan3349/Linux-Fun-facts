@@ -78,6 +78,17 @@ Some Interesting Facts about Linux.
 - `gnome-terminal`
 - `done`
 - This will open 10 terminals for you.
+###### What if we want to close all terminals in a single click?
+- Ans: Do `ps -aux | grep terminal`.
+- Select the gnome-terminal server process id bcz that is the program and if we kill that p_id then all terminal gets closed.
+- Then do `kill <gnome-terminal process id> ` .
+
+
+### To see all the process which are running in your system(just like task manager)
+- use ` ps -aux` will give you all the running process list.
+- or we can use `ps -aux | grep firefox` and by this we can easily find .
+- To close the firefox by cmd we can use ` kill <process_id> ` process id means whatever id is assigned by the task manager. when we do ps -aux there we will also get process-id.
+- 
 
 #### Technically, your IP store in the RAM in Binary format as 0,1.
 - Just like it will first make your 1st octet number in binary and then remove the . then same as 2,3,4 octets.
